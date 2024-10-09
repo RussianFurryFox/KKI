@@ -376,6 +376,7 @@
 "Assets/Scripts/CardBase.cs"
 "Assets/Scripts/GMscript.cs"
 "Assets/Scripts/Health.cs"
+"Assets/Scripts/MenuScripts/MainMenu.cs"
 "Assets/Scripts/Mouse.cs"
 "Assets/Scripts/m_Ray.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
