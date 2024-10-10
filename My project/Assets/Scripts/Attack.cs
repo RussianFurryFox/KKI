@@ -5,6 +5,7 @@ using UnityEngine;
 public class Attack : MonoBehaviour
 {
     public GameObject target;
+    public GameObject TrgTxt;
     public int Dmg;
 
 
@@ -12,6 +13,8 @@ public class Attack : MonoBehaviour
     {
         Health TargetHealt = target.GetComponent<Health>();
         TargetHealt.TakeDmg(Dmg);
+        HealthTxt that=TrgTxt.GetComponent<HealthTxt>();
+        that.HTchange();
     }
 
 
