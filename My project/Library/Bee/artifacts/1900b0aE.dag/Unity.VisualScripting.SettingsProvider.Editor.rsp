@@ -118,6 +118,10 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
+-r:"Assets/Plugins/Mono.Data.Sqlite.dll"
+-r:"Assets/Plugins/System.Configuration.dll"
+-r:"Assets/Plugins/System.EnterpriseServices.dll"
+-r:"Assets/Plugins/System.Security.dll"
 -r:"E:/Unity/2022.3.49f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"E:/Unity/2022.3.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"E:/Unity/2022.3.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"

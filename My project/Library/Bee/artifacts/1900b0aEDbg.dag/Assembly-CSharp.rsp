@@ -120,11 +120,10 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"Assets/Firebase/Plugins/Firebase.App.dll"
--r:"Assets/Firebase/Plugins/Firebase.Auth.dll"
--r:"Assets/Firebase/Plugins/Firebase.Platform.dll"
--r:"Assets/Firebase/Plugins/Firebase.TaskExtension.dll"
--r:"Assets/Firebase/Plugins/Google.MiniJson.dll"
+-r:"Assets/Plugins/Mono.Data.Sqlite.dll"
+-r:"Assets/Plugins/System.Configuration.dll"
+-r:"Assets/Plugins/System.EnterpriseServices.dll"
+-r:"Assets/Plugins/System.Security.dll"
 -r:"E:/Unity/2022.3.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"E:/Unity/2022.3.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"E:/Unity/2022.3.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -384,6 +383,7 @@
 -analyzer:"E:/Unity/2022.3.49f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Attack.cs"
 "Assets/Scripts/CardBase.cs"
+"Assets/Scripts/Connection.cs"
 "Assets/Scripts/GMscript.cs"
 "Assets/Scripts/Health.cs"
 "Assets/Scripts/HealthTxt.cs"
@@ -392,7 +392,6 @@
 "Assets/Scripts/Move_card.cs"
 "Assets/Scripts/m_Ray.cs"
 "Assets/Scripts/Up.cs"
-"Assets/Scripts/Vxod.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
