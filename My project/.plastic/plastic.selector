@@ -1,4 +1,3 @@
-repository "My project@AsutoNo4ka@cloud"
+rep "My project@AsutoNo4ka@cloud"
   path "/"
-    br "/main"
-    co "/main"
+    smartbranch "/main" changeset "34"

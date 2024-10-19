@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class m_Ray : MonoBehaviour
 {
+
+    public bool act = false;
+    public Material Red;
+    public Material Blue;
+    Material m_Material;
+    Collider coll;
     // Start is called before the first frame update
     void Start()
     {
@@ -11,10 +17,7 @@ public class m_Ray : MonoBehaviour
         coll=GetComponent<Collider>();
     }
 
-    public Material Red;
-    public Material Blue;
-    Material m_Material;
-    Collider coll;
+    
 
     // Update is called once per frame
     void Update()
@@ -23,11 +26,17 @@ public class m_Ray : MonoBehaviour
         RaycastHit hit;
         if (coll.Raycast(ray,out hit,Mathf.Infinity))
         {
+            act = true;
             m_Material.color = Red.color;
-
+           
+            if (Move_card.dragged==true)
+            {
+                Move_card.m_card.transform.SetParent(transform);
+            }
         }
         else
         {
+            act = false;
             m_Material.color = Blue.color;
         }
     }

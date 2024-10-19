@@ -16,6 +16,7 @@ public class HealthTxt : MonoBehaviour
     // Update is called once per frame
      public void HTchange()
     {
+        owner = gameObject.transform.parent.parent.gameObject;
         int txt=owner.GetComponent<Health>().CurrentHealth;
         GetComponent<TextMesh>().text = txt.ToString();
     }
