@@ -21,6 +21,7 @@ public class Health : MonoBehaviour
         {
 
             gameObject.SetActive(false);
+            Destroy(gameObject);
 
         }
 
